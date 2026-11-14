@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  user-select: none;
+  -webkit-app-region: drag;
+  background-image: url("assets/outer-frame-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.8;
+
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 214px;
+    padding: 0px 17px;
+
+}
+
+button,
+input,
+textarea,
+select {
+  -webkit-app-region: no-drag;
+  cursor: pointer;
+}
+
+.title{
+
+  margin-top: 10px;
+  display: flex;
+  width: 160px;
+  padding: 4px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 100px;
+  border: 1px solid #C079FF;
+  background: rgba(210, 164, 255, 0.4);
+
+
+
+  color: var(--white, #FFFFFF);
+  font-family: 'Pixeboy';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+
+
+
+}
+
+#calendar {
+  display: flex;
+  width: 180px;
+  height: 161px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  background-image: url("assets/inner-frame-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#day {
+  color: #FFFFFF;
+  -webkit-text-stroke: 1.5px #B58CD9;
+  font-family: 'Pixeboy';
+  font-size: 120px;
+  font-weight: 400;
+  line-height: 120px;
+  text-align: center;
+  width: 100%;
+  margin-top: -20px;
+}
+
+#month {
+  -webkit-text-stroke: 1px #C079FF;
+  color: #FFFFFF;
+  font-family: 'Pixeboy';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  width: 100%;
+  margin-top: -12px;
+}
+abcdsfvsf
